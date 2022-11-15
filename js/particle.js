@@ -251,10 +251,10 @@ var ParticlePool = (function() {
       var pos = pointOnHeart(Math.PI - 2 * Math.PI * Math.random());
       var dir = pos.clone().length(settings.particles.velocity);
       particles.add(
-        canvas.width / 2 + pos.x,
-        canvas.height / 2 - pos.y,
-        dir.x,
-        -dir.y
+        canvas.width / 2,
+        canvas.height / 2,
+        dir.x + pos.x,
+        -dir.y - pos.y
       );
     }
 

@@ -56,7 +56,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   font-weight: 200;
   font-size: 26px;
   padding: 0;
-  margin: 0;
+  margin: 20;
   line-height: 1;
   color: #ffffff;
   letter-spacing: 2px;
